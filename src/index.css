@@ -1,0 +1,51 @@
+@keyframes typing {
+    0%, 100% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    animation: typing 5s steps(14) infinite;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  /* styles.css */
+
+  /* Define the initial state of the elements */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px); /* Start slightly below */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  /* Define the state when elements become visible */
+  .fade-in-visible {
+    opacity: 1;
+    transform: translateY(0); /* Move to its final position */
+  }
+
+
+  /* Scaling effect */
+.scale-in {
+    opacity: 0;
+    transform: scale(0.9); /* Start slightly smaller */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .scale-in-visible {
+    opacity: 1;
+    transform: scale(1); /* Scale to its final size */
+  }
+  
+  
+  
+  

@@ -1,5 +1,3 @@
-import React from "react";
-
 function Content1() {
   return (
     <div className="grid grid-cols-2 gap-4 p-4 h-full">

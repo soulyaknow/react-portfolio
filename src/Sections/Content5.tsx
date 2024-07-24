@@ -1,9 +1,7 @@
-import React from "react";
 import {
   faPhone,
   faLocationPin,
   faEnvelope,
-  faArrowUp,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,

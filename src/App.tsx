@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Navlinks from "./Navigations/Navlinks";
 import "./App.css";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";

@@ -1,5 +1,3 @@
-import React from "react";
-
 function Content4() {
   return (
     <div>
